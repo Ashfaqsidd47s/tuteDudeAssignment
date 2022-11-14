@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReferAndEarn from "./pages/referAndEarn/ReferAndEarn";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Instruction from "./components/instruction/Instruction";
+import FriendsReferred from "./components/friendsReferred/FriendsReferred";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<ReferAndEarn />} >
+            <Route index element={<Instruction />} />
+            <Route path="instructions" element={<Instruction />} />
+            <Route path="friends" element={<FriendsReferred />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

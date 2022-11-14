@@ -1,0 +1,34 @@
+.friendsEnrolled{
+    width: 100%;
+}
+.friendsEnrollTitle{
+    width: 241px;
+    height: 30px;
+    margin-bottom: 20px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #800080;
+}
+.cardSlider{
+    height: 228px;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+.cardSlider::-webkit-scrollbar{
+    display: none;
+}
+
+@media screen and (max-width: 550px){
+    .cardSlider{
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,121 @@
+.friendCard{
+    width: 318px;
+    height: 188px;
+    padding: 20px;
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    border-radius: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.cartTop{
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+    margin-bottom: 10px;
+}
+.cardUserName{
+    height: 24px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+
+}
+.cardDate{
+    height: 21px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+}
+.courseEnrolledTitle{
+    width: 141px;
+    height: 21px;
+    margin-bottom: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+.coursesList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.course{
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 9px;
+    gap: 10px;
+
+    border: 1.5px solid #EEAEAE;
+    border-radius: 20px;
+}
+.course p{
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+ 
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.refralAmountContainer{
+    width: 195px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 0px;
+}
+.refralAmountContainer p{
+    width: 130px;
+    height: 24px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.refralAmount{
+    height: 36px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 430px){
+    .friendCard{
+        width: calc(100% - 40px);
+    }
+}

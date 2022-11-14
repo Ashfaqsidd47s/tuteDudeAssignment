@@ -1,0 +1,297 @@
+.instruction{
+    flex: none;
+    width: calc(100% - 60px);
+    max-width: 990px;
+    padding: 0px 30px;
+}
+.frame{
+    flex: none;
+    width: calc(100% - 40px);
+    max-width: 990px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.frameText{
+    width: 266px;
+    height: 21px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.withdrawContainer{
+    width: 446px;
+    height: 148px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.withdrawTop{
+    width: 100%;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.withdrawTopItem{
+    height: 69px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+.withdrawTopItem p{
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #800080;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.withdrawTopItem h4{
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000; 
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.withdrawBtn{
+    width: 148px;
+    height: 24px;
+    padding: 8px 16px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #800080;
+    border-radius: 20px;
+}
+.withdrawBtn p{
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+}
+
+.yourReferralCode{
+    width: 358px;
+    height: 105px;
+}
+.yourReferralCodeTitle{
+    height: 36px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #800080;
+}
+.referralCodeWrapper{
+    width: 358px;
+    height: 60px;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.referralCodeWrapper::after{
+    content: "";
+    width: calc(100% + 3px);
+    height: calc(100% + 3px);
+    position: absolute;
+    border-radius: 11px;
+    top: -1.5px;
+    left: -1.5px;
+    background-image: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    z-index: -1;
+}
+.referralCodeWrapper p{
+    width: 230px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.5em;
+    color: #800080;
+}
+
+.working{
+    width: 100%;
+    height: 332px;
+}
+.workingTitle{
+    width: 224px;
+    height: 36px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #800080;
+}
+.workingSteps{
+    max-width: 764px;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px 45px;
+}
+
+.step{
+    width: 353.76px;
+    height: 72px;
+    display: flex;
+    gap: 20px;
+}
+.stepLogo{
+    flex: none;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stepContent{
+    flex: none;
+    width: 274.17px;
+    height: 72px;
+}
+.stepHeading{
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.stepText{
+    width: 274.17px;
+    height: 48px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D4D4D;
+}
+
+.bottomTextLinks{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #800080;
+}
+.friendsWhoEnrolled{
+    margin-top: 60px;
+}
+.TermsAndCondition{
+    margin: 20px 0px 80px 0px;
+}
+
+@media screen and (max-width: 950px){
+    .dashboard{
+        gap: 20px;
+    }   
+}
+
+@media screen and (max-width: 800px){
+    .dashboard{
+        flex-direction: column;
+    } 
+    .workingSteps{
+        gap: 30px 0px;
+    } 
+}
+@media screen and (max-width: 750px){
+    .working{
+        height: max-content;
+    }
+    .workingSteps{
+        height: max-content;
+    } 
+}
+@media screen and (max-width: 550px){
+    .instruction{
+        flex: none;
+        width: calc(100% - 70px);
+        padding: 0px 35px;
+        margin-top: 30px;
+    }
+    .frame{
+        width: calc(100% - 70px);
+    }
+    .withdrawContainer{
+        width: 318px;
+        height: 158px;
+    }
+    .withdrawTop{
+        gap: 30px 100px;
+        flex-wrap: wrap;
+    }
+    .withdrawBtn{
+        align-self: flex-end;
+    }
+
+}
+
+@media screen and (max-width: 430px){
+    .withdrawContainer{
+        width: calc(100% - 40px);
+    }
+    .yourReferralCode{
+        width: 100%;
+    }
+    .referralCodeWrapper{
+        width: 100%;
+    }
+}
